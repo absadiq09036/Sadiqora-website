@@ -22,19 +22,28 @@
     </nav>
   </header>
 
-  <section id="contact" class="contact">
-    <div class="section-header">
-      <h2>Contact Me</h2>
-      <p>Have a question or want to collaborate? Reach out to me!</p>
-    </div>
+  <section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/abubakarmusa.sm@gmail.com" method="POST" class="contact-form">
+      <input type="hidden" name="_captcha" value="false">
+      
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
 
-    <div class="contact-container">
-      <form id="contactForm" class="contact-form">
-        <input type="text" id="name" name="name" placeholder="Your Name" required />
-        <input type="email" id="email" name="email" placeholder="Your Email" required />
-        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+
+      <div class="form-group">
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+  </div>
+</section>
 
       <div class="container social-icons">
       <a href="mailto:abubakarmusa.sm@gmail.com" target="_blank"><img src="email.png" alt="Email"></a>
