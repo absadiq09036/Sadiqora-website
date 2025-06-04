@@ -139,6 +139,50 @@ nav ul li a:hover {
   flex-direction: column;
   gap: 1rem;
 }
+.contact-section {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #5d3fd3;
+  outline: none;
+}
+
+.submit-button {
+  background: linear-gradient(135deg, #5d3fd3, #8c52ff);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background: linear-gradient(135deg, #3e2cb1, #7a40e0);
+}
 .contact input,
 .contact textarea {
   padding: 0.8rem;
